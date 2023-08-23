@@ -1,1 +1,1 @@
-# my_blog
+# This is my Blog. Have a look!

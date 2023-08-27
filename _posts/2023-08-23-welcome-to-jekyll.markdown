@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Literature Review on Requirements Extraction
+using Natural Language Processing"
+date:   2023-08-23 15:57:12 +0200
+categories: jekyll update
+---
+Requirements engineering is a crucial aspect of the software development process, as it lays
+the foundation for subsequent stages, such as implementation and testing of a software
+system. However, eliciting and retrieving requirements from natural language documents
+remains a challenging and time-consuming process that often requires a significant amount
+of manual work. To address this problem, natural language processing (NLP) methods
+and tools have been developed to help extract requirements concepts and automate the
+process of requirements extraction.
+This work aims to provide a systematic literature review of the current state of the art in
+requirements extraction using NLP. The primary focus will be on identifying publications
+with well-justified and documented NLP approaches for requirements extraction. To
+achieve this goal, a search strategy and selection of relevant studies based on inclusion and
+exclusion criteria will be defined. A mapping study will be conducted with a quantitative
+analysis covering the following aspects:
+• Year-wise distribution of publications
+• Algorithms and models
+• NLP technologies and methodologies
+• Used NLP libraries and programming languages
+• Countries of the authors who contributed to the publications 
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

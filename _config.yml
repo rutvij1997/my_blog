@@ -21,16 +21,15 @@
 title: Rutvij Chitroda
 email: rutvijchitroda@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my blog site.
 baseurl: "/my_blog" # the subpath of your site, e.g. /blog
 url: "https://rutvij1997.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: https://www.linkedin.com/in/rutvijchitroda/
 github_username:  rutvij1997
 
+#removed minima theme as it is now a regular theme and not using anymore gembased theme
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
 

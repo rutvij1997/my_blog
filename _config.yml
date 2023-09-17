@@ -29,6 +29,9 @@ url: "https://rutvij1997.github.io" # the base hostname & protocol for your site
 linkedin_username: rutvijchitroda
 github_username:  rutvij1997
 
+
+#title-logo: my_blog/images/Logo_4.png
+
 #removed minima theme as it is now a regular theme and not using anymore gembased theme
 # Build settings
 #theme: minima

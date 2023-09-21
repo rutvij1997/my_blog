@@ -22,7 +22,9 @@ analysis covering the following aspects:
 • Algorithms and models
 • NLP technologies and methodologies
 • Used NLP libraries and programming languages
-• Countries of the authors who contributed to the publications 
+• Countries of the authors who contributed to the publications.
+
+The full report can be found [here]({{site.baseurl}}/assets/NTP-Report.pdf)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll

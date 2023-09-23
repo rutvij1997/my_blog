@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Diploma Project - Maglev Windmill"
+date:   2016-04-23 15:57:12 +0200
+categories: jekyll update
+---
+This project focuses on the utilization of wind energy as a renewable
+source. In the United States alone, wind capacity has grown about 45% to
+16.7GW and it continues to grow with the facilitation of new wind projects .
+The aim of this major qualifying project is to design and Implement a
+magnetically levitated vertical axis wind turbine system that has the ability
+to operate in both high and low wind speed conditions. Our choice for this
+model is to showcase its efficiency in varying wind conditions as
+compared to the traditional horizontal axis wind turbine and contribute
+to its steady growing popularity for the purpose of mass utilization in the
+near future as are liable source of power generation. Unlike the traditional
+horizontal axis wind turbine, this design is levitated via maglev
+(magnetic levitation) vertically on a rotor shaft. This maglev
+technology, which will be looked at in great detail, serves as an
+efficient replacement for ball bearings used on the conventional wind
+turbine and is usually implemented with permanent magnets.
+
+The full report can be found [here]({{site.baseurl}}/assets/Maglev Windmill Report.pdf)
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

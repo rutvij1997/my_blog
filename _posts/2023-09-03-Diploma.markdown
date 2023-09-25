@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Diploma Project - Maglev Windmill"
-date:   2016-04-23 15:57:12 +0200
+date:   2016-09-03 15:57:12 +0200
 categories: jekyll update
 ---
 This project focuses on the utilization of wind energy as a renewable

@@ -5,6 +5,8 @@ using Natural Language Processing"
 date:   2023-08-23 15:57:12 +0200
 categories: jekyll update
 ---
+## Introduction
+
 Requirements engineering is a crucial aspect of the software development process, as it lays
 the foundation for subsequent stages, such as implementation and testing of a software
 system. However, eliciting and retrieving requirements from natural language documents
@@ -18,10 +20,15 @@ with well-justified and documented NLP approaches for requirements extraction. T
 achieve this goal, a search strategy and selection of relevant studies based on inclusion and
 exclusion criteria will be defined. A mapping study will be conducted with a quantitative
 analysis covering the following aspects:
+
 • Year-wise distribution of publications
+
 • Algorithms and models
+
 • NLP technologies and methodologies
+
 • Used NLP libraries and programming languages
+
 • Countries of the authors who contributed to the publications.
 
 The full report can be found [here]({{site.baseurl}}/assets/NTP-Report.pdf)

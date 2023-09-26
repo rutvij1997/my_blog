@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "Designed a Kalman Filter for a Maglev Train using Matlab/Simulink"
+date:   2022-10-14 15:57:12 +0200
+categories: jekyll update
+---
+
+## What is a Kalman filter?
+
+A Kalman filter is an efficient and recursive mathematical algorithm used for estimating the state of a dynamic system from a series of noisy measurements. It is named after Rudolf E. Kálmán, who developed the filter in the early 1960s. The Kalman filter is widely applied in various fields, including control systems, navigation, robotics, finance, and signal processing, among others, where there is a need to estimate the true state of a system from noisy or uncertain sensor measurements.
+
+The primary goal of a Kalman filter is to estimate the state of a dynamic system while taking into account both the uncertainty in the system's model (process noise) and the uncertainty in the measurements (measurement noise). It does this by combining two main components:
+
+
+A Kalman filter is an efficient and recursive mathematical algorithm used for estimating the state of a dynamic system from a series of noisy measurements. It is named after Rudolf E. Kálmán, who developed the filter in the early 1960s. The Kalman filter is widely applied in various fields, including control systems, navigation, robotics, finance, and signal processing, among others, where there is a need to estimate the true state of a system from noisy or uncertain sensor measurements.
+
+The primary goal of a Kalman filter is to estimate the state of a dynamic system while taking into account both the uncertainty in the system's model (process noise) and the uncertainty in the measurements (measurement noise). It does this by combining two main components:
+
+1. Prediction (Time Update): In this step, the filter uses the system's mathematical model and the previous estimate of the state to predict the current state. It also estimates the uncertainty in this prediction.
+
+2. Correction (Measurement Update): In this step, the filter combines the predicted state with the newly acquired measurement data. It calculates a weighted average of the predicted state and the measured state, with the weights determined by the relative uncertainties of the prediction and the measurement. This weighted average is called the Kalman gain. The correction step provides an improved estimate of the system's state.
+
+Key advantages of the Kalman filter include its ability to handle noisy measurements, adapt to changing dynamics, and provide estimates with minimum mean square error under certain assumptions. It is particularly useful in real-time applications, such as navigation and tracking, where accurate state estimation is essential. However, the effectiveness of the Kalman filter relies on having a good understanding of the system's dynamics and the accuracy of the noise models used in the filter.
+
+## Detail of states
+
+<img src="{{site.baseurl}}/blog-kalman/assets/images/image_6.png">
+
+## Complete System overview in Simulink
+
+<img src="{{site.baseurl}}/blog-kalman/assets/images/image_1.png">
+
+## Subsystem of Maglev Train block
+
+<img src="{{site.baseurl}}/blog-kalman/assets/images/image_2.png">
+
+## Subsystem of Sensor block
+
+<img src="{{site.baseurl}}/blog-kalman/assets/images/image_3.png">
+
+## Subsystem of Kalman Filter block
+
+<img src="{{site.baseurl}}/blog-kalman/assets/images/image_4.png">
+
+## Final Output Waveform
+
+In this figure it can be seen that around 1.8 seconds Kalman filter is able to converge to the true state.
+<img src="{{site.baseurl}}/blog-kalman/assets/images/image_5.png">
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

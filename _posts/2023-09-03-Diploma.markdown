@@ -4,6 +4,9 @@ title:  "Diploma Project - Maglev Windmill"
 date:   2016-09-03 15:57:12 +0200
 categories: jekyll update
 ---
+
+<img src="{{site.baseurl}}/assets/dipl.png" width="350" height="440" style="vertical-align:middle;margin:50px 250px">
+
 This project focuses on the utilization of wind energy as a renewable
 source. In the United States alone, wind capacity has grown about 45% to
 16.7GW and it continues to grow with the facilitation of new wind projects .

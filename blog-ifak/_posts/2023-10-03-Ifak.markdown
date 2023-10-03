@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Developed a rule-based algorithm to extract requirements semantics from ISO documents using Python"
+date:   2023-10-03 
+categories: jekyll update
+---
+
+## Approach 1: Basic Text Extraction
+
+• “Copy-Paste” approach
+
+• Python libraries for text extraction: PyPDF2, PDFMiner, PyMuPDF
+
+• Define rules using RegEx
+
+## Drawbacks:
+
+• Definition of pattern rules is inconsistent, i.e., they work in some cases, in others not(too few     information about text given)
+
+• No paragraphs and indentation detectable, i.e., the (begin and) end of the requirement text cannot be  detected
+
+• Additional information (hyperlinks, highlighting, bold font style, etc.) are lost
+
+• The order of entries do not necessarily match with the visible order in the document
+
+## Approach 2: Image Recognition
+
+• Conversion to graphic format
+
+• Detection of paragraphs (boxes) using OpenCV
+
+• Optical Character Recognition (OCR) using Python-tesseract 
+
+## Drawbacks:
+
+• Conversion to JPG very inefficient (takes a long time)
+
+• OCR detection is very inefficient and not fully accurate (and actually unnecessary when text was readable)
+
+• Detection of boxes with OpenCV works but is also very inefficient (many boxes per page)
+
+## Approach 3: Advanced Text Extraction
+
+• Advanced (but free) Python libraries: PyMuPDF (best in our comparison)
+
+• Many additional text information: boxes, coordinates, font name, size, style, etc.
+
+## Created a rule-based algorithm:
+
+• Exclude text on margins (heading, footnotes, page numbers, imprint)
+
+• Order sorted by vertical appearance on the page
+
+• Rules (patterns) for each information, e.g.
+
+Requirement: Font size = 12, Font = Arial Normal, Text starts with “[G2L”
+Section: Font size = 13, 14, 16, Font = Arial Bold, Text starts with number
+Requirement_append: Font size = 12, Font = Arial Normal, Indentation > 120, predecessor = requirement
+
+
+Marked PDF  |  JSON
+--- | ---
+<img src="{{site.baseurl}}/blog-ifak/assets/images/ifak_2.jpg" width="350" height="400"> | <img src="{{site.baseurl}}//blog-ifak/assets/images/ifak_1.jpg" width="550" height="370">
+
+
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

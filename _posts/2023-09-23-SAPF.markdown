@@ -7,7 +7,12 @@ categories: jekyll update
 
 <img src="{{site.baseurl}}/assets/BE.png" width="750" height="440">
 
-In the modern era, the sudden growth in power electronic devices (such as, Variable Frequency Drives (VFDs), switch mode power supplies (SMPS), etc.) to increase the controllability and efficiency of the system are the main sources for harmonic distortion on power system network. These devices draw harmonic non-linear sinusoidal currents because of switching. Therefore, generation of harmonics that causes power quality disturbances has become a significant problem for the distributors and consumers of electric power. To eliminate such issues and improve the quality of power supply, active power filters (APFs) are used. The most commonly used power circuit for power disturbances nullification and compensating reactive power is the shunt active power filter.
+<div style="text-align: justify;">
+   In the modern era, the sudden growth in power electronic devices (such as, Variable Frequency Drives (VFDs), switch mode power supplies (SMPS), etc.) to increase the controllability and efficiency of the system are the main sources for harmonic distortion on power system network. These devices draw harmonic non-linear sinusoidal currents because of switching. Therefore, generation of harmonics that causes power quality disturbances has become a significant problem for the distributors and consumers of electric power. To eliminate such issues and improve the quality of power supply, active power filters (APFs) are used. The most commonly used power circuit for power disturbances nullification and compensating reactive power is the shunt active power filter.
+</div>
+
+
+
 
 The full report can be found [here]({{site.baseurl}}/assets/SAPF_Report_Final_v2.pdf)
 

@@ -10,7 +10,8 @@ categories: jekyll update
 
 ## Introduction
 
-Requirements engineering is a crucial aspect of the software development process, as it lays
+<div style="text-align: justify;">
+   Requirements engineering is a crucial aspect of the software development process, as it lays
 the foundation for subsequent stages, such as implementation and testing of a software
 system. However, eliciting and retrieving requirements from natural language documents
 remains a challenging and time-consuming process that often requires a significant amount
@@ -23,6 +24,8 @@ with well-justified and documented NLP approaches for requirements extraction. T
 achieve this goal, a search strategy and selection of relevant studies based on inclusion and
 exclusion criteria will be defined. A mapping study will be conducted with a quantitative
 analysis covering the following aspects:
+</div>
+
 
 • Year-wise distribution of publications
 
